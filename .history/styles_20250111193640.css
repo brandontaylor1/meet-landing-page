@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+:root {
+    --color-white: #FAFAFA;
+    --color-slate: #87879D;
+    --color-lightslate: #D1D1DF;
+    --color-darkslate: #28283D;
+    --color-cyan: #4D96A9;
+    --color-purple: #855FB1;
+    --color-lightcyan: #8FE3F9;
+    --color-lightpurple: #D9B8FF;
+
+}
+
+.navbar {
+    display: flex;
+    padding: 80px 80px 0px 80px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: var(--spacing-100, 8px);
+    align-self: stretch;
+
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 64px 80px;
+}
+
+.left-faces {
+    padding-right: 95px;
+    padding-bottom: 57px;
+}
+
+.right-faces {
+    padding-left: 95px;
+    padding-top: 57px;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 448px;
+    height: 314px;
+
+}
+
+.hero-content h1 {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 110%;
+    color: var(--color-darkslate);
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.hero-content p {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+    color: var(--color-slate)
+}
+
+

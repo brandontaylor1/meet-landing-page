@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+:root {
+    --color-white: #FAFAFA;
+    --color-slate: #87879D;
+    --color-lightslate: #D1D1DF;
+    --color-darkslate: #28283D;
+    --color-cyan: #4D96A9;
+    --color-purple: #855FB1;
+    --color-lightcyan: #8FE3F9;
+    --color-lightpurple: #D9B8FF;
+
+}
+
