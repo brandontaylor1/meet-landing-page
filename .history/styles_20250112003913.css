@@ -392,6 +392,7 @@ body {
     }
 
     .responsive-image {
+        display: inline-block;
         content: url("./assets/images/mobile/image-hero.png");
     }
 

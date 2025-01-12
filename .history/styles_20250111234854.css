@@ -18,13 +18,6 @@
 
 }
 
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
 .white {
     background-color: var(--color-white);
 }
@@ -176,7 +169,6 @@ body {
 .image-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 1fr;        
     gap: 32px;
 }
 
@@ -284,133 +276,15 @@ body {
 }
 
 
-@media screen and (min-width: 795px) and (max-width: 1354px) {
-    .hero-section {
-        padding: 4rem 2rem;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .hero-content {
-        margin-top: 72px;
-    }
-
-    .hero-content h1 {
-        font-size: 3rem;
-    }
-
-    .hero-content p {
-        font-size: 16px;
-    }
-
+@media screen and (min-width: 768px) {
     .hero-images {
         display: none;
     }
 
     .responsive-image {
-        display: inline-block;
-        content: url("./assets/images/tablet/image-hero.png");
-
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .hero-section {
-        padding: 4rem 2rem;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
+        display: block;
+        
     }
 
-    .hero-content {
-        margin-top: 72px;
-    }
 
-    .hero-content h1 {
-        font-size: 2.5rem;
-    }
-
-    .hero-content p {
-        font-size: 16px;
-    }
-
-    .hero-images {
-        display: none;
-    }
-
-    .responsive-image {
-        display: inline-block;
-        content: url("./assets/images/tablet/image-hero.png");
-    }
-
-    .main-content {
-        padding: 56px 40px 72px 40px;
-    }
-
-    .content {
-        height: auto;
-    }
-
-    .image-container {
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-    }
-
-    .text-container {
-        width: 100%;
-    }
-
-    .footer {
-        padding: 7rem 2rem;
-    }
-
-    .footer-grid {
-        width: 100%;
-        gap: 16px;
-    }
-
-    .footer-grid h2 {
-        font-size: 2rem;
-        width: 100%;
-    }
-
-    .footer-grid p {
-        font-size: 1rem;
-        width: 100%;
-    }
-
-}
-
-@media screen and (max-width: 425px) {
-    .hero-content h1 {
-        font-size: 2rem;
-    }
-
-    .hero-content p {
-        font-size: 14px;
-    }
-
-    .responsive-image {
-        content: url("./assets/images/mobile/image-hero.png");
-    }
-
-    .image-container {
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(4, 1fr);
-    }
-
-    .footer {
-        padding: 7rem 1rem;
-    }
-
-    .footer-grid h2 {
-        font-size: 1.5rem;
-        width: 100%;
-    }
-
-    .footer-grid p {
-        font-size: 1rem;
-        width: 100%;
-    }
 }
