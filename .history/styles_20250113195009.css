@@ -100,7 +100,6 @@ body {
     padding: 16px 40px;
     border-radius: 29px;
     border: none;
-    cursor: pointer;
 
 }
 
@@ -117,16 +116,7 @@ body {
 #downloadBtn span {
     margin-left: 4px;
     color: var(--color-lightcyan);
-}
 
-
-#downloadBtn:hover {
-    background-color: var(--color-lightcyan);
-    color: var(--color-white);
-}
-
-#downloadBtn:hover span {
-    color: var(--color-white);
 }
 
 #whatisitBtn {
@@ -137,15 +127,6 @@ body {
     font-weight: 900;
     line-height: 150%;
     margin-left: 8.5px;
-}
-
-#whatisitBtn:hover {
-    background-color: var(--color-lightpurple);
-    color: var(--color-white);
-}
-
-#whatisitBtn:hover .footer-span {
-    color: var(--color-white);
 }
 
 .main-content {
@@ -310,19 +291,14 @@ body {
 
 @media screen and (min-width: 795px) and (max-width: 1354px) {
     .hero-section {
-        display: flex;
-        padding: var(--spacing-800, 64px) var(--spacing-400, 32px);
+        padding: 4rem 2rem;
         flex-direction: column;
+        justify-content: space-between;
         align-items: center;
-        gap: var(--spacing-100, 8px);
-        align-self: stretch;
     }
 
     .hero-content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: var(--spacing-300, 24px);
+        margin-top: 72px;
     }
 
     .hero-content h1 {
@@ -363,7 +339,7 @@ body {
     }
 }
 
-@media screen and (max-width: 806px) {
+@media screen and (max-width: 770px) {
     .hero-images {
         display: none;
 
@@ -378,119 +354,20 @@ body {
         align-self: stretch;
     }
 
+    
+
     .hero-content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: var(--spacing-300, 24px);
-        align-self: stretch;
-        width: 100%;
-        margin-top: 32px;
+        margin-top: 72px;
     }
 
     .hero content h1 {
         font-size: 2rem;
-    }
-    
-    .main-content {
-        width: 100%;
-        height: auto;
-        /* padding: 56px 40px 72px 40px; */
-    }
-
-    .content {
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-    }
-
-    .image-container {
-        grid-template-columns: repeat(2, 1fr); 
-        grid-template-rows: repeat(2, 1fr);
-        padding: 4rem 0; 
     }
 
     .responsive-image {
         display: block;
         content: url('./assets/images/tablet/image-hero.png');
         width: 100%;
-    }
 
-    .footer {
-        padding: 2rem;
-        width: 100%;
-    }
-
-    .footer-grid {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        justify-content: center;
-        width: 100%;
-        gap: 16px;
-        text-align: center;;
     }
 }
-
-@media screen and (max-width: 480px) {
-    .hero-section {
-        display: flex;
-        padding: var(--spacing-800, 64px) var(--spacing-400, 32px) var(--spacing-400, 32px) var(--spacing-400, 32px);
-        flex-direction: column; 
-        align-items: center;
-        gap: var(--spacing-100, 8px);
-        align-self: stretch;
-    }
-
-    .hero-content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: var(--spacing-300, 24px);
-        align-self: stretch;
-        width: 100%;
-    }
-
-    .hero content h1 {
-        font-size: 2rem;
-    }
-
-    .main-content {
-        width: 100%;
-        height: auto;
-        /* padding: 56px 40px 72px 40px; */
-    }
-
-    .content {
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-    }
-
-    .responsive-image {
-        display: block;
-        content: url('./assets/images/mobile/image-hero.png');
-        width: 100%;
-
-    }
-
-    .image-container {
-        grid-template-columns: repeat(1, 1fr); 
-        grid-template-rows: repeat(4, auto);
-    }
-
-    .btn-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: var(--spacing-100, 8px);
-    }
-
-
-}
-

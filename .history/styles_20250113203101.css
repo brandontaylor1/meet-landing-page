@@ -144,7 +144,7 @@ body {
     color: var(--color-white);
 }
 
-#whatisitBtn:hover .footer-span {
+#whatisitBtn:hover footer-span {
     color: var(--color-white);
 }
 

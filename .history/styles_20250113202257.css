@@ -104,6 +104,12 @@ body {
 
 }
 
+.hero-btn:hover {
+    cursor: pointer;
+    
+
+}
+
 #downloadBtn {
     background-color: var(--color-cyan);
     color: var(--color-white);
@@ -117,16 +123,7 @@ body {
 #downloadBtn span {
     margin-left: 4px;
     color: var(--color-lightcyan);
-}
 
-
-#downloadBtn:hover {
-    background-color: var(--color-lightcyan);
-    color: var(--color-white);
-}
-
-#downloadBtn:hover span {
-    color: var(--color-white);
 }
 
 #whatisitBtn {
@@ -137,15 +134,6 @@ body {
     font-weight: 900;
     line-height: 150%;
     margin-left: 8.5px;
-}
-
-#whatisitBtn:hover {
-    background-color: var(--color-lightpurple);
-    color: var(--color-white);
-}
-
-#whatisitBtn:hover .footer-span {
-    color: var(--color-white);
 }
 
 .main-content {
@@ -420,13 +408,11 @@ body {
 
     .footer {
         padding: 2rem;
-        width: 100%;
     }
 
     .footer-grid {
-        display: flex;
-        align-items: center;
         flex-direction: column;
+        align-items: center;
         justify-content: center;
         width: 100%;
         gap: 16px;

@@ -119,13 +119,8 @@ body {
     color: var(--color-lightcyan);
 }
 
-
 #downloadBtn:hover {
-    background-color: var(--color-lightcyan);
-    color: var(--color-white);
-}
-
-#downloadBtn:hover span {
+    background-color: var(--color-cyan);
     color: var(--color-white);
 }
 
@@ -139,12 +134,8 @@ body {
     margin-left: 8.5px;
 }
 
-#whatisitBtn:hover {
+.whatisitBtn:hover {
     background-color: var(--color-lightpurple);
-    color: var(--color-white);
-}
-
-#whatisitBtn:hover .footer-span {
     color: var(--color-white);
 }
 

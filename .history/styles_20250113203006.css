@@ -144,10 +144,6 @@ body {
     color: var(--color-white);
 }
 
-#whatisitBtn:hover .footer-span {
-    color: var(--color-white);
-}
-
 .main-content {
     display: flex; 
     flex-direction: column;

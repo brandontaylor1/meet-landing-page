@@ -100,7 +100,6 @@ body {
     padding: 16px 40px;
     border-radius: 29px;
     border: none;
-    cursor: pointer;
 
 }
 
@@ -117,16 +116,7 @@ body {
 #downloadBtn span {
     margin-left: 4px;
     color: var(--color-lightcyan);
-}
 
-
-#downloadBtn:hover {
-    background-color: var(--color-lightcyan);
-    color: var(--color-white);
-}
-
-#downloadBtn:hover span {
-    color: var(--color-white);
 }
 
 #whatisitBtn {
@@ -137,15 +127,6 @@ body {
     font-weight: 900;
     line-height: 150%;
     margin-left: 8.5px;
-}
-
-#whatisitBtn:hover {
-    background-color: var(--color-lightpurple);
-    color: var(--color-white);
-}
-
-#whatisitBtn:hover .footer-span {
-    color: var(--color-white);
 }
 
 .main-content {
@@ -398,14 +379,6 @@ body {
         /* padding: 56px 40px 72px 40px; */
     }
 
-    .content {
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-    }
-
     .image-container {
         grid-template-columns: repeat(2, 1fr); 
         grid-template-rows: repeat(2, 1fr);
@@ -416,21 +389,7 @@ body {
         display: block;
         content: url('./assets/images/tablet/image-hero.png');
         width: 100%;
-    }
 
-    .footer {
-        padding: 2rem;
-        width: 100%;
-    }
-
-    .footer-grid {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        justify-content: center;
-        width: 100%;
-        gap: 16px;
-        text-align: center;;
     }
 }
 
@@ -457,20 +416,6 @@ body {
         font-size: 2rem;
     }
 
-    .main-content {
-        width: 100%;
-        height: auto;
-        /* padding: 56px 40px 72px 40px; */
-    }
-
-    .content {
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-    }
-
     .responsive-image {
         display: block;
         content: url('./assets/images/mobile/image-hero.png');
@@ -480,7 +425,8 @@ body {
 
     .image-container {
         grid-template-columns: repeat(1, 1fr); 
-        grid-template-rows: repeat(4, auto);
+        grid-template-rows: repeat(4, 1fr);
+        padding: 4rem 0; 
     }
 
     .btn-container {
@@ -490,7 +436,5 @@ body {
         justify-content: center;
         gap: var(--spacing-100, 8px);
     }
-
-
 }
 

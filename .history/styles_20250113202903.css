@@ -119,13 +119,12 @@ body {
     color: var(--color-lightcyan);
 }
 
-
-#downloadBtn:hover {
-    background-color: var(--color-lightcyan);
+#downloadBtn span:hover {
     color: var(--color-white);
 }
 
-#downloadBtn:hover span {
+#downloadBtn:hover {
+    background-color: var(--color-lightcyan);
     color: var(--color-white);
 }
 
@@ -141,10 +140,6 @@ body {
 
 #whatisitBtn:hover {
     background-color: var(--color-lightpurple);
-    color: var(--color-white);
-}
-
-#whatisitBtn:hover .footer-span {
     color: var(--color-white);
 }
 
