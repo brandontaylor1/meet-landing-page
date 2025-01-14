@@ -154,12 +154,12 @@ body {
     margin-left: 8.5px;
 }
 
-#footer-btn:hover {
+#footer-btn:hover .footer-span {
     background-color: var(--color-lightpurple);
     color: var(--color-white);
 }
 
-#footer-btn:hover .footer-span {
+#whatisitBtn:hover .footer-span {
     color: var(--color-white);
 }
 

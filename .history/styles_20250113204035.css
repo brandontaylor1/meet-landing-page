@@ -144,22 +144,12 @@ body {
     color: var(--color-white);
 }
 
-#footer-btn {
-    background-color: var(--color-purple);
-    color: var(--color-white);
-    font-size: 16px;
-    font-family: "Red Hat Display", sans-serif;
-    font-weight: 900;
-    line-height: 150%;
-    margin-left: 8.5px;
-}
-
 #footer-btn:hover {
     background-color: var(--color-lightpurple);
     color: var(--color-white);
 }
 
-#footer-btn:hover .footer-span {
+#whatisitBtn:hover .footer-span {
     color: var(--color-white);
 }
 
